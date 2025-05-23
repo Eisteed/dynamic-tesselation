@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "eis_dynamic_tesselation"    
+name = "Dynamic Tesselation"
+version = "1.0.0"
+maintainer = "Eisteed <hello@eisteed.com>"
+website = "https://github.com/Eisteed/dynamic-tesselation"
+tagline  = "Auto update meshes tesselation when dicing camera moves"
+type = "add-on"
+
+blender_version_min = "4.0.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
