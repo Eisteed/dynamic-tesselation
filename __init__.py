@@ -9,7 +9,7 @@ def update_meshes_on_camera_move(scene):
     global last_camera_position
     
     # Get the dicing camera
-    dicing_camera = bpy.data.scenes["Scene"].cycles.dicing_camera
+    dicing_camera = bpy.context.scene.cycles.dicing_camera
     
     if dicing_camera is None:
         return
@@ -26,7 +26,7 @@ def update_meshes_on_camera_move(scene):
         
         # Store the new position
         last_camera_position = current_position
-        print(f"Camera moved to {current_position}, updated meshes")
+        #print(f"Camera moved to {current_position}, updated meshes")
 
 # Register the handler
 def register():
